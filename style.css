@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+.imagem{
+    height: 25rem;
+    width: 25rem;
+    justify-content: left;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+
+
+.input-component{
+    float: right;
+    margin-right: 80px;
+    margin-top: 20rem;
+    width: 35%;
+    font-size: 16px;
+    height: 38px;
+    padding: 8px 14px;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+
+}
+.copiado{
+    font-family: 'gochi hand' ;
+    margin-left: 260px;
+    position: relative;
+    bottom: 275px;
+    font-size: 30px;
+    text-align: left;
+}

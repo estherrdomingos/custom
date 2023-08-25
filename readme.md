@@ -1,0 +1,1 @@
+Olá, esse projeto é um algoritmo de personalização de produtos. Esse modelo de projeto foi feito com base o site da Gocase.
