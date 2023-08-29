@@ -1,31 +1,208 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-.imagem{
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&family=Ysabeau+Office:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.product-name {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #575757;
+    font-size: 20px;
+}
+
+.price {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #575757;
+    font-size: 20px;
+}
+
+.show-more {
+    /* display: flex; */
+    color: #2A2A2A;
+    background-color: transparent;
+    border: none;
+    text-decoration-line: underline;
+
+}
+
+.description {
+    color: #2A2A2A;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.color {
+    color: #575757;
+    display: block;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.choice-simbol {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #575757;
+    font-size: 15px;
+}
+
+.simbolo {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #575757;
+    width: 332px;
+    ;
+    height: 28px;
+    font-size: 16px;
+    height: 38px;
+    border: 1px solid #afafaf;
+
+}
+
+.input-component {
+    font-weight: lighter;
+    width: 327px;
+    ;
+    height: 28px;
+    font-size: 16px;
+    height: 38px;
+    color: #575757;
+    border: 1px solid #afafaf;
+    font-family: sans-serif;
+
+
+}
+
+.personalização {
+    display: flex;
+    align-self: flex-end;
+    height: 42px;
+    width: 201px;
+}
+
+.div-miniatura {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-miniatura {
+    display: block;
+    height: 43px;
+    width: 43px;
+}
+
+.button-product {
+    background-color: transparent;
+    border: none;
+    height: 43px;
+    width: 43px;
+}
+
+.imagem {
     height: 25rem;
     width: 25rem;
     justify-content: left;
-    margin-left: 10rem;
-    margin-top: 5rem;
+
 }
 
 
+#copiado {
+    position: absolute;
+    top: 10rem;
+    left: 15rem;
+    rotate: -27deg;
+    font-family: '';
+    font-size: 20px;
+}
 
-.input-component{
-    float: right;
-    margin-right: 80px;
-    margin-top: 20rem;
-    width: 35%;
+.color-picker {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: #afafaf;
+    border-width: 1px;
+    display: flex;
+    margin: 3px;
+}
+
+#rosa-seco {
+    background-color: #c2acca;
+    display: inline-block;
+}
+
+#lavanda {
+    background-color: #dbb2e9;
+    display: inline-block;
+}
+
+#pink {
+    background-color: #be0199;
+    display: inline-block;
+}
+
+#caramelo {
+    background-color: #b66c11;
+    display: inline-block;
+}
+
+#esmeralda {
+    background-color: #458054;
+    display: inline-block;
+}
+
+#preto {
+    background-color: #000000;
+    display: inline-block;
+}
+
+#marinho {
+    background-color: #100b71;
+    display: inline-block;
+}
+
+#vermelho {
+    background-color: #d71c1c;
+    display: inline-block;
+}
+
+.div-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-details {
+    width: 300px;
+    height: 300px;
+
+}
+
+.w3-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.positions {
+    font-weight: lighter;
+    width: 332px;
+    ;
+    height: 28px;
     font-size: 16px;
     height: 38px;
-    padding: 8px 14px;
     border: 1px solid #afafaf;
-    border-radius: 4px;
-
+    font-family: sans-serif;
+    color: #575757;
 }
-.copiado{
-    font-family: 'gochi hand' ;
-    margin-left: 260px;
-    position: relative;
-    bottom: 275px;
-    font-size: 30px;
-    text-align: left;
+
+.fonts {
+    width: 332px;
+    ;
+    height: 28px;
+    font-size: 16px;
+    height: 38px;
+    border: 1px solid #afafaf;
+    font-family: sans-serif;
+    color: #575757;
 }

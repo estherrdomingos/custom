@@ -7,18 +7,93 @@
     <title>Personalização</title>
   </head>
   <body>
-    <img src="imagem/preview.jpg" class="imagem" />
+    <div class="w3-container">
+      
+      <div class="div-img">
+        <div class="div-miniatura">
+          <button class="button-product" onclick="trocaVermelho()">
+            <img src="imagem/necessaire-lateral.webp" class="img-miniatura">
+          </button>
+        </div>
+        <div id="photo" class="image-product">
+          <img id="img" src="imagem/necessaire-lateral.webp" class="imagem" />
+        </div>
+        <p id="copiado"></p>
+      </div>
+      <div class="div-details">
+        <div class="product-text">
+          <div class="product">
+            <h1 class="product-name">Necessaire Capri</h1>
+            <h1 class="price">R$109,00</h1>
+            
+          </div>
+          <p style="display:block" class="description">
+            A necessaire Capri é ideal para te
+            acompanhar em uma ida à praia, uma
+            viagem especial ou com os itens do dia a dia
+          </p>
+          <button class="show-more">Saiba mais</button>
+        </div>
+        <section class="select-color">
+          <div class="color">Cor</div>
+    <div id="rosa-seco" class="color-picker" onclick="trocaVermelho()"></div>
+    <div id="lavanda" class="color-picker" onclick="trocaVermelho()"></div>
+    <div id="pink" class="color-picker" onclick="trocaVermelho()"></div>
+    <div id="caramelo" class="color-picker" onclick="trocaCaramelo()"></div>
+    <div id="esmeralda" class="color-picker" onclick="trocaVermelho()"></div>
+    <div id="preto" class="color-picker" onclick="trocaVermelho()"></div>
+    <div id="marinho" class="color-picker" onclick="trocaVermelho()"></div>
+    <div id="vermelho" class="color-picker" onclick="trocaVermelho()"></div>
+    <div class="div-simbol">
+      <label class="choice-simbol">Personalize aqui!</label>
+      <select class="simbolo" name="options-simbol">
+        <option>Adicionar simbolo na personalização</option>
+        <option onclick="">Nenhum</option>
+        <option onclick="">Avião</option>
+        <option onclick="">Borboleta</option>
+        <option onclick="">Cavalinho</option>
+        <option onclick="">Coração</option>
+        <option onclick="">Diamante</option>
+        <option onclick="">Estrela</option>
+        <option onclick="">Iniciais separadas por || </option>
+        <option onclick="">Laço</option>
+        <option onclick="">Patinha de cachorro</option>
+        <option onclick="">Trevo</option>
+       </div>
+       
+  </div>
+  
+  <div class="personalização">
     
     <input
-      type="text"
-      id="entrada"
-      maxlength="9"
-      placeholder="Escreva seu nome aqui!"
-      class="input-component" 
-      oninput="escrever()"
-    />
-   
-    <p id="copiado" class="copiado"></p>
+          type="text"
+          id="entrada"
+          maxlength="9"
+          placeholder="Escreva seu nome aqui!"
+          class="input-component" 
+          oninput="escrever()">
+  </div>
+  <div class="div-positions">
+    <select id="posicoes" class="positions" name="options-positions" onchange="mudarPosicao()">
+      <option>Selecione a posição da sua personalização</option>
+      <option value="center">Centro</option>
+      <option value="cima">Cima</option>
+      <option value="bottom">Baixo</option>
+    </select>
+  </div>
+  <div class="select">
+    <select class="fonts" name="options-font" onchange="mudarFonte()">
+      <option>Escolha uma fonte para a sua personalização</option>
+      <option id="fontGochiHandOption" value="Gluten">Gluten</option>
+      <option id="robotoOption" value="pacifico">Pacífico</option>
+      <option id="titanOneOption" value="Prompt">Prompt</option>
+      <option id="monotonOption" value="Ysabeau Office">Ysabeau</option>
+      <option id="rockSaltOption" value="Bebas Neue">Bebas Neue</option>
+    </select>
+    </div>
+    </div>
+    
+    
   </body>
   <script src="script.js"></script>
 </html>
